@@ -1,0 +1,19 @@
+﻿빌드 시작: 2021-01-13 오후 5:05:06
+     1>2 노드의 "C:\Users\IntekPlus\Documents\Visual Studio 2013\Projects\MFC_Cal_Test\MFC_Cal_Test.vcxproj" 프로젝트(Build 대상)입니다.
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /sdl /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /D _AFXDLL /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"stdafx.h" /Fp"Debug\MFC_Cal_Test.pch" /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Calulater.cpp
+         Calulater.cpp
+     1>c:\users\intekplus\documents\visual studio 2013\projects\mfc_cal_test\calulater.cpp(59): warning C4717: 'Calculater_LBH::Set_com' : 모든 제어 경로에서 재귀적입니다. 함수로 인해 런타임 스택 오버플로가 발생합니다.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\IntekPlus\Documents\Visual Studio 2013\Projects\MFC_Cal_Test\Debug\MFC_Cal_Test.exe" /INCREMENTAL /NOLOGO /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /manifestinput:"C:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\Include\Manifest\dpiaware.manifest" /DEBUG /PDB:"C:\Users\IntekPlus\Documents\Visual Studio 2013\Projects\MFC_Cal_Test\Debug\MFC_Cal_Test.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\IntekPlus\Documents\Visual Studio 2013\Projects\MFC_Cal_Test\Debug\MFC_Cal_Test.lib" /MACHINE:X86 Debug\MFC_Cal_Test.res
+         Debug\Calulater.obj
+         Debug\MFC_Cal_Test.obj
+         Debug\MFC_Cal_TestDlg.obj
+         Debug\stdafx.obj
+     1>MFC_Cal_TestDlg.obj : error LNK2019: "public: __thiscall Calculater_LBH::Calculater_LBH(class CWnd *)" (??0Calculater_LBH@@QAE@PAVCWnd@@@Z) 외부 기호(참조 위치: "void __cdecl `dynamic initializer for 'Cal_A''(void)" (??__ECal_A@@YAXXZ) 함수)에서 확인하지 못했습니다.
+     1>C:\Users\IntekPlus\Documents\Visual Studio 2013\Projects\MFC_Cal_Test\Debug\MFC_Cal_Test.exe : fatal error LNK1120: 1개의 확인할 수 없는 외부 참조입니다.
+     1>"C:\Users\IntekPlus\Documents\Visual Studio 2013\Projects\MFC_Cal_Test\MFC_Cal_Test.vcxproj" 프로젝트를 빌드했습니다(Build 대상). - 실패
+
+빌드하지 못했습니다.
+
+경과 시간: 00:00:00.32
